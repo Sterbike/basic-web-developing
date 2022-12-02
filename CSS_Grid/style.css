@@ -1,0 +1,119 @@
+
+body {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(119, 150, 139);
+}
+
+.fejlec h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #fff;
+}
+
+.menu nav {
+    background-color: rgb(58, 119, 53);
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu nav a {
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: cadetblue;
+    color: #fff;
+    margin-left: 15px;
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+.menu nav a:hover {
+    background-color: rgb(71, 115, 117);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item {
+    background-color: rgba(255, 248, 220, 0.507);
+    border: 1px solid #000;
+}
+
+.item h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.item h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: red;
+}
+
+.item p {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+a.class1 {
+    text-decoration: none;
+    color: red;
+    margin: 0 0 0 20px;
+}
+
+a.class1:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+a.class2 {
+    text-decoration: none;
+    color: rgb(136, 77, 204);
+}
+
+a.class2:hover {
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+}
+
+.item:nth-child(1) {
+    grid-column: span 2;
+}
+
+.item:nth-child(3) {
+    grid-column: span 2;
+}
+
+.item:nth-child(5) {
+    grid-column: span 2;
+}
+
+.item:nth-child(7) {
+    grid-column: span 2;
+}
+
+.item:nth-child(9) {
+    grid-column: span 2;
+}
+
+
+img {
+    width: 590px;
+    height: 380px;
+    padding: 4px 4px 1px 4px;
+    border: #000;
+    border-radius: 20px;
+}
